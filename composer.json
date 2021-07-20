@@ -1,0 +1,46 @@
+{
+    "name": "mmoreram/gearman-bundle",
+    "replace": {
+        "mmoreramerino/gearman-bundle": "dev-master"
+    },
+    "description": "Adds gearman support to your Symfony2 project",
+    "keywords": ["gearman"],
+    "homepage": "https://github.com/mmoreram/GearmanBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Morera",
+            "email": "yuhu@mmoreram.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://github.com/mmoreram/GearmanBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-gearman": "*",
+
+        "doctrine/doctrine-cache-bundle": "~1.0",
+        "doctrine/common": "~2.2",
+
+        "symfony/dependency-injection": "~2.1",
+        "symfony/framework-bundle": "~2.4",
+        "symfony/http-kernel": "~2.1",
+        "symfony/console": "~2.1",
+        "symfony/config": "~2.1",
+        "symfony/finder": "~2.1",
+        "symfony/options-resolver": "~2.1"
+    },
+    "target-dir": "Mmoreram/GearmanBundle",
+    "autoload": {
+        "psr-0": { "Mmoreram\\GearmanBundle": "" }
+    },
+    "minimum-stability": "stable", 
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    }
+}
